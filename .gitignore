@@ -1,0 +1,10 @@
+boltz-env/
+.venv/
+venv/
+.boltz/
+boltz_cache/
+results/
+resultado/
+__pycache__/
+*.pyc
+*.log

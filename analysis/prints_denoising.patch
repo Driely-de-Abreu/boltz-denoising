@@ -1,0 +1,14 @@
+diff --git a/src/boltz/model/modules/diffusionv2.py b/src/boltz/model/modules/diffusionv2.py
+index 062bcad..23354cf 100644
+--- a/src/boltz/model/modules/diffusionv2.py
++++ b/src/boltz/model/modules/diffusionv2.py
+@@ -394,6 +394,9 @@ class AtomDiffusion(Module):
+                         ),
+                     )
+                     atom_coords_denoised[sample_ids_chunk] = atom_coords_denoised_chunk
++                
++                print("STEP:", step_idx)
++                print("DENOISED SHAPE:", atom_coords_denoised.shape)
+ 
+                 if steering_args["fk_steering"] and (
+                     (

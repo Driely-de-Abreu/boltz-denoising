@@ -8,3 +8,4 @@ resultado/
 __pycache__/
 *.pyc
 *.log
+boltz_results_*/
